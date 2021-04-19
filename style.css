@@ -5,6 +5,9 @@
 body {
   margin: 0px;
   background-color: rgb(240, 240, 240);
+  /*
+  sets the background of the website.
+  */
 }
 
 hr{
@@ -14,12 +17,18 @@ hr{
   width: 450px;
   margin-top: 75px;
   margin-bottom: 65px;
+  /*
+  stylizes the boarder. sets the height, width, and color of the horizontal rule.
+  */
 }
 
 body header {
   background-color: rgb(42, 42, 42);
   border-bottom: 25px solid rgb(42, 42, 42);
   border-top: 25px solid rgb(42, 42, 42);
+  /*
+  sets the color and size of the header background
+  */
 }
 
 header h1 {
@@ -30,6 +39,9 @@ header h1 {
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 0px;
+  /*
+  sets the text tyle for h1 inside of the header container.
+  */
 }
 
 header h2 {
@@ -39,12 +51,18 @@ header h2 {
   font-size: 24px;
   margin-top: 0px;
   margin-bottom: 20px;
+  /*
+  sets the text color, size and magins
+  */
 }
 
 main {
   background-color: rgb(240, 240, 240);
   margin-bottom: 75px;
   text-align: center;
+  /*
+  sets the main container background, sets the alignment, and sets the margins
+  */
 }
 
 main div header {
@@ -52,30 +70,44 @@ main div header {
   border-top: 75px solid rgb(240, 240, 240);
   border-bottom: 30px solid rgb(240, 240, 240);
   text-align: center;
+  /*
+  this was made to control the image in the header
+  */
 }
 
 main h3 {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 28px;
+  /*
+  sets text style for h3 inside of the main container
+  */
 }
 
 main p {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
+  /*
+  sets the text style for paragraphs inside of the main containier
+  */
 }
-
 
 body footer {
   background-color: rgb(42, 42, 42);
   border-bottom: 25px solid rgb(42, 42, 42);
-  border-top: 25px solid rgb(42, 42, 42)
+  border-top: 25px solid rgb(42, 42, 42);
+  /*
+  color and size of the footer background
+  */
 }
 footer {
   color: white;
   font-size: 12px;
   text-align: center;
+  /*
+  text style fot the footer
+  */
 }
 
 
@@ -83,33 +115,47 @@ a {
   text-align: center;
   font-size: 16px;
   color: blue;
+  /*
+  link size and color.
+  */
 }
 
 a:link    { color: rgb(0, 46, 2);  }
 a:visited { color: rgb(0, 173, 0);   }
 a:hover   { color: rgb(0, 217, 255); }
 a:active  { color: rgb(166, 255, 255);  }
+/*
+sets what colors the link chages to based on the interaction with the cursor.
+*/
 
 .wrapper {
   width: 500px;
   margin: auto;
 }
-
-.img-circle {
-  border-radius: 1%
-}
+/*
+wrapper
+*/
 
 .img-size {
   width: 400px;
 }
+/*
+image size
+*/
 
 .img-margin{
   margin-top: 50px;
 }
+/*
+marings for pictures
+*/
 
 .margin-top {
   margin-top: 25px;
 }
+/*
+used to add more space to top margin.
+*/
 
 ul {
   font-family:Arial, Helvetica, sans-serif;
@@ -119,6 +165,9 @@ ul {
   text-align: left;
   margin-top: 25px;
 }
+/*
+style for unordered list
+*/
 
 ol {
   font-family:Arial, Helvetica, sans-serif;
@@ -128,3 +177,6 @@ ol {
   text-align: left;
   margin-top: 25px;
 }
+/*
+style fo ordered list
+*/
